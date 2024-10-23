@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/editTextHoten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên: Bùi Quốc Nam"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/editTextMSSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Msv: 22115053122230"
+        android:textSize="20sp"
+        android:layout_marginBottom="40dp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn màu nền"
+        android:textSize="24dp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <Button
+        android:id="@+id/buttonRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="#FF0000"
+        android:backgroundTint="@color/design_default_color_background"
+        android:text="Màu Đỏ"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Màu Xanh Lá"
+        android:background="#00FF00"
+        android:textColor="#FFFFFF"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/buttonGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Màu Xám"
+        android:background="#0000FF"
+        android:textColor="#FFFFFF"
+        android:layout_margin="12dp"/>
+
+
+</LinearLayout>
